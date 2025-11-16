@@ -1,0 +1,18 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+    <!-- outer plate -->
+    <path
+        android:fillColor="#F0F0F0"
+        android:pathData="M60,4 A56,56 0 1,0 60,116 A56,56 0 1,0 60,4 Z"/>
+    <!-- inner shadow ring -->
+    <path
+        android:fillColor="#E0E0E0"
+        android:pathData="M60,18 A42,42 0 1,0 60,102 A42,42 0 1,0 60,18 Z"/>
+    <!-- center -->
+    <path
+        android:fillColor="#F7F7F7"
+        android:pathData="M60,30 A30,30 0 1,0 60,90 A30,30 0 1,0 60,30 Z"/>
+</vector>
